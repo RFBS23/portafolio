@@ -17,8 +17,8 @@
 }
 
 .about_box {
-    background-color: #f8f8c4;
-    border: 1px solid rgb(0, 45, 255);
+    background-color: #F0F8FF;
+    border: 1px solid rgb(225, 100, 219);
     border-radius: 0.75rem;
     text-align: center;
     padding: 1rem 1.25rem;
@@ -64,6 +64,7 @@
     }
     .about_description {
         padding: 0 5rem;
+        text-align: justify;
         margin-bottom: 2rem;
     }
 }
@@ -74,6 +75,7 @@
         grid-template-columns: repeat(3, 1fr);
     }
     .about_description {
+        text-align: justify;
         padding: 0;
     }
 }

@@ -7,15 +7,15 @@ import Info from "./Info";
 const About = () => {
     return (
         <section className="about section" id="about">
-            <h2 className="section_titulo">Acerca De</h2>
-            <span className="section_subtitulo">Mi Introduccion</span>
+            <h2 className="section_titulo">ACERCA DE</h2>
+            <span className="section_subtitulo">MI INTRODUCCION</span>
 
             <div className="about_container container grid">
                 <img src={AboutImg} alt="" className="about_img" />
                 <div className="about_data">
                     <Info />
                     <p className="about_descripcion">Programador Full Stack, creo paginas webs responsivas, experiencia en Diseño Web y UX tengo 2 años de experiencia y proyectos de desarrollo movil y aplicaciones de escritorio que he realizado tambien vendo aplicaciones crackeados</p>
-                    <a download="" href={CV} className="button button--flex">
+                    <a download="curriculum" href={CV} className="button button--flex">
                         Descargar CV
 
                         <svg
