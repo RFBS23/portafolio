@@ -5,7 +5,7 @@ import Home from "./components/home/Home";
 import About from "./components/about/About";
 import Skills from "./components/skills/Skills";
 import Services from "./components/services/Services";
-import Calificacion from "./components/calificacion/Calificacion";
+import Experiencia from "./components/experiencia/Experiencia";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
 import ScrollUp from "./components/scrollup/ScrollUp";
@@ -21,7 +21,7 @@ const App = () => {
             <Skills />
             <Services />
             <Portafolio />
-            <Calificacion />
+            <Experiencia />
             <Contact />
         </main>
         <Footer />

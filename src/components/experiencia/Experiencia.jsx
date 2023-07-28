@@ -1,15 +1,15 @@
 import React, {useState} from 'react';
-import "./calificacion.css";
+import "./experiencia.css";
 
-const Calificacion = () => {
+const Experiencia = () => {
     const [toggleState, setToggleState] = useState(1);
     const toggleTab = (index) => {
         setToggleState(index);
     };
     return (
-        <section className="calificacion section">
-            <h2 className="section_titulo">CALIFICACIONES</h2>
-            <span className="section_subtitulo">MI CALIFICACION PERSONAL</span>
+        <section className="calificacion section" id="experiencia">
+            <h2 className="section_titulo">EXPERIENCIA</h2>
+            <span className="section_subtitulo">MI EXPERIENCIA PERSONAL</span>
 
             <div className="calificacion_container container">
                 <div className="calificacion_tabs">
@@ -174,4 +174,4 @@ const Calificacion = () => {
     )
 };
 
-export default Calificacion;
+export default Experiencia;
