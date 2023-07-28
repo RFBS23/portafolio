@@ -9,30 +9,54 @@ export const projectsData = [
         id: 1,
         image: Work1,
         title: 'trabajo de prueba 1',
-        category: 'categoria de prueba',
+        category: 'Desarrollo Web',
     },
     {
         id: 2,
         image: Work2,
         title: 'trabajo de prueba 2',
-        category: 'categoria de prueba',
+        category: 'prueba',
     },
     {
         id: 3,
         image: Work3,
         title: 'trabajo de prueba 3',
-        category: 'categoria de prueba',
+        category: 'Desarrollo Movil',
     },
     {
         id: 4,
         image: Work4,
         title: 'trabajo de prueba 4',
-        category: 'categoria de prueba',
+        category: 'design',
     },
     {
         id: 5,
         image: Work5,
         title: 'trabajo de prueba 5',
-        category: 'categoria de prueba',
+        category: 'Desarrollo Web',
     },
+    {
+        id: 6,
+        image: Work3,
+        title: 'trabajo de prueba 6',
+        category: 'Desarrollo Movil',
+    }
 ]
+
+export const projectsNav = [
+    {
+        name: 'Todos',
+    },
+    {
+        name: 'Desarrollo Web',
+    },
+    {
+        name: 'prueba'
+    },
+    {
+        name: 'Desarrollo Movil'
+    },
+    {
+        name: 'design'
+    }
+];
