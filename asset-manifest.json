@@ -1,22 +1,24 @@
 {
   "files": {
-    "main.css": "/portafolio/static/css/main.9f2b1c73.css",
-    "main.js": "/portafolio/static/js/main.93484c22.js",
+    "main.css": "/portafolio/static/css/main.fde0f83c.css",
+    "main.js": "/portafolio/static/js/main.9458c555.js",
     "static/js/787.ae0d8d37.chunk.js": "/portafolio/static/js/787.ae0d8d37.chunk.js",
     "static/media/curriculum.pdf": "/portafolio/static/media/curriculum.25f7bbc03af7e9b38e5c.pdf",
+    "static/media/doctec1.jpg": "/portafolio/static/media/doctec1.63aefe4e283d2b564bbc.jpg",
+    "static/media/atep1.jpg": "/portafolio/static/media/atep1.880be0edb086d47938fe.jpg",
+    "static/media/imagen1.jpg": "/portafolio/static/media/imagen1.79b8538dd16b1aaa64f2.jpg",
+    "static/media/encuesta1.jpg": "/portafolio/static/media/encuesta1.13d94fad6e6c48492755.jpg",
+    "static/media/logo.png": "/portafolio/static/media/logo.f1c919f43dd1aef5d91a.png",
+    "static/media/imagen2.png": "/portafolio/static/media/imagen2.7bedd3fcb16674d2ce77.png",
     "static/media/perfil.jpg": "/portafolio/static/media/perfil.7eb9b42547e9318b0dee.jpg",
-    "static/media/work2.jpg": "/portafolio/static/media/work2.e52a0c2981a6c11ba468.jpg",
-    "static/media/work4.jpg": "/portafolio/static/media/work4.aee985961b648f4df1f2.jpg",
-    "static/media/work5.jpg": "/portafolio/static/media/work5.094ec4a2224db8908873.jpg",
-    "static/media/work1.jpg": "/portafolio/static/media/work1.321b4ae3bf404acdfdc6.jpg",
-    "static/media/work3.jpg": "/portafolio/static/media/work3.135e9065694bc13dc31d.jpg",
+    "static/media/pinguino.png": "/portafolio/static/media/pinguino.8775fe63faa134fb85b1.png",
     "index.html": "/portafolio/index.html",
-    "main.9f2b1c73.css.map": "/portafolio/static/css/main.9f2b1c73.css.map",
-    "main.93484c22.js.map": "/portafolio/static/js/main.93484c22.js.map",
+    "main.fde0f83c.css.map": "/portafolio/static/css/main.fde0f83c.css.map",
+    "main.9458c555.js.map": "/portafolio/static/js/main.9458c555.js.map",
     "787.ae0d8d37.chunk.js.map": "/portafolio/static/js/787.ae0d8d37.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9f2b1c73.css",
-    "static/js/main.93484c22.js"
+    "static/css/main.fde0f83c.css",
+    "static/js/main.9458c555.js"
   ]
 }
