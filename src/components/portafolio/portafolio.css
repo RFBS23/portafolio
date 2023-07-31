@@ -23,7 +23,7 @@
 }
 
 .work_container {
-    grid-template-columns: repeat(2, max-content);
+    grid-template-columns: repeat(3, max-content);
     gap: 3rem;
     justify-content: center;
 }
@@ -37,7 +37,7 @@
 
 .work_img {
     width: 295px;
-    border-radius: 2rem;
+    border-radius: 1rem;
     margin-bottom: var(--mb-1);
 }
 
@@ -140,6 +140,14 @@
 
 .portafolio_modal-info {
     font-size: var(--small-font-size);
+    font-weight: bold;
+}
+
+.portafolio_modal-link {
+    font-size: var(--small-font-size);
+    font-weight: bold;
+    color: #0475e5;
+    text-decoration: #e58404;
 }
 
 /*haciendo funcionar el modal*/
