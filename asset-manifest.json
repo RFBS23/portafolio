@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portafolio/static/css/main.fde0f83c.css",
-    "main.js": "/portafolio/static/js/main.9458c555.js",
+    "main.js": "/portafolio/static/js/main.891ad245.js",
     "static/js/787.ae0d8d37.chunk.js": "/portafolio/static/js/787.ae0d8d37.chunk.js",
     "static/media/curriculum.pdf": "/portafolio/static/media/curriculum.25f7bbc03af7e9b38e5c.pdf",
     "static/media/doctec1.jpg": "/portafolio/static/media/doctec1.63aefe4e283d2b564bbc.jpg",
@@ -9,16 +9,18 @@
     "static/media/imagen1.jpg": "/portafolio/static/media/imagen1.79b8538dd16b1aaa64f2.jpg",
     "static/media/encuesta1.jpg": "/portafolio/static/media/encuesta1.13d94fad6e6c48492755.jpg",
     "static/media/logo.png": "/portafolio/static/media/logo.f1c919f43dd1aef5d91a.png",
+    "static/media/floramarilla.png": "/portafolio/static/media/floramarilla.2fa91f3b04d31ef31cde.png",
     "static/media/imagen2.png": "/portafolio/static/media/imagen2.7bedd3fcb16674d2ce77.png",
     "static/media/perfil.jpg": "/portafolio/static/media/perfil.7eb9b42547e9318b0dee.jpg",
+    "static/media/icono_qr.png": "/portafolio/static/media/icono_qr.0921ab092305fd0a17ee.png",
     "static/media/pinguino.png": "/portafolio/static/media/pinguino.8775fe63faa134fb85b1.png",
     "index.html": "/portafolio/index.html",
     "main.fde0f83c.css.map": "/portafolio/static/css/main.fde0f83c.css.map",
-    "main.9458c555.js.map": "/portafolio/static/js/main.9458c555.js.map",
+    "main.891ad245.js.map": "/portafolio/static/js/main.891ad245.js.map",
     "787.ae0d8d37.chunk.js.map": "/portafolio/static/js/787.ae0d8d37.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fde0f83c.css",
-    "static/js/main.9458c555.js"
+    "static/js/main.891ad245.js"
   ]
 }
