@@ -6,9 +6,12 @@ import doctec1 from "../../assets/html/documentacion_tecnica/doctec1.jpg";
 import atep1 from "../../assets/html/aterrizaje_prod/atep1.jpg";
 import copyhouse from "../../assets/html/copyhouse/logo.png";
 import repositorio from "../../assets/html/repositorio/logo.png";
+import corazonpy from "../../assets/python/floramarilla.png";
+import floramarillapy from "../../assets/python/floramarilla.png";
+import imgQRflutter from "../../assets/flutter/scannerqr/icono_qr.png";
 
 export const projectsData = [
-    /*css*/
+
     {
         id: 1,
         image: pinguino_css,
@@ -19,9 +22,7 @@ export const projectsData = [
         descripcion: 'Este proyecto de pinguino esta hecho con variables de css',
         viñeta1: 'Este trabajo es prueba de examen de Freecodecamp.',
     },
-    /*fin css*/
 
-    /*html*/
     {
         id: 2,
         image: tribute1,
@@ -79,11 +80,52 @@ export const projectsData = [
         category: 'HTML',
         imgmodal: repositorio,
         link: 'https://rfbs-repositorio.vercel.app/',
-        descripcion: '',
+        descripcion: 'Mi primer portafolio',
         viñeta1: 'Este proyecto se Hizo con html, css y boostrap.',
     },
-    /*fin html*/
 
+    {
+        id: 8,
+        image: corazonpy,
+        title: 'Corazon Python',
+        category: 'Python',
+        imgmodal: corazonpy,
+        link: 'https://rfbs-repositorio.vercel.app/',
+        descripcion: 'Mi primer portafolio',
+        viñeta1: 'Este proyecto se Hizo con html, css y boostrap.',
+    },
+    {
+        id: 9,
+        image: floramarillapy,
+        title: 'Flor Amarilla',
+        category: 'Python',
+        imgmodal: floramarillapy,
+        link: '',
+        descripcion: 'Flor Amarilla por el dia de la amistad',
+        viñeta1: 'Fue desarrollado con las librerias turtle y math.',
+    },
+
+    {
+        id: 10,
+        image: corazonpy,
+        title: 'Crud de Autos',
+        category: 'Desarrollo Movil',
+        imgmodal: corazonpy,
+        link: 'https://rfbs-repositorio.vercel.app/',
+        descripcion: 'Mi primer portafolio',
+        viñeta1: 'Este proyecto se Hizo con html, css y boostrap.',
+    },
+
+    {
+        id: 11,
+        image: imgQRflutter,
+        title: 'Scanner QR',
+        category: 'Flutter',
+        imgmodal: imgQRflutter,
+        link: 'https://rfbs-repositorio.vercel.app/',
+        descripcion: 'Aplicacion desarrollada con flutter',
+        viñeta1: 'Este proyecto se Hizo con html, css y boostrap.',
+    },
 ];
 
 export const projectsNav = [
@@ -100,9 +142,6 @@ export const projectsNav = [
         name: 'Desarrollo Web',
     },
     {
-        name: 'prueba'
-    },
-    {
         name: 'Desarrollo Movil'
     },
     {
@@ -110,5 +149,8 @@ export const projectsNav = [
     },
     {
         name: 'Flutter'
+    },
+    {
+        name: 'Python'
     }
 ];

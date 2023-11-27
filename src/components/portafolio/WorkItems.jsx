@@ -32,14 +32,13 @@ const WorkItems = ({item}) => {
 
                         <li className="portafolio_modal-portfolio">
                             <i className="uil uil-check-circle portafolio_modal-icon"></i>
-                            <a href={item.link} className="portafolio_modal-link" target="_blank">ver Web</a>
+                            <a href={item.link} className="portafolio_modal-link" target="_blank" rel="noopener noreferrer">ver Web</a>
                         </li>
                     </ul>
                 </div>
             </div>
 
         </div>
-
     );
 };
 
