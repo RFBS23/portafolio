@@ -1,0 +1,32 @@
+{
+	"intro": {
+		"start": "const Fabrizio = ( nombre, pasión ) =>",
+		"end": "Hola, mi nombre es",
+		"speed": 60,
+		"deletionSpeed": 80,
+		"wrapper": "h2",
+		"startDelay": 1000,
+		"deleteDelay": 3000,
+		"restartDelay": 12000
+	},
+
+	"header": {
+		"name": "Fabrizio Barrios.",
+		"usp": "Ingeniero de software con Inteligencia Artificial."
+	},
+
+	"paragraph": "Tengo 2 años de experiencia en programación y computación con nivel intermedio. Busco aplicar mis habilidades en equipo o individualmente, con responsabilidad, dedicación y buenos valores.",
+
+	"buttons": {
+		"primary": {
+			"title": "Contactame",
+			"url": "",
+			"leaveSite": false
+		},
+		"secondary": {
+			"title": "Página Web",
+			"url": "",
+			"leaveSite": "true"
+		}
+	}
+}

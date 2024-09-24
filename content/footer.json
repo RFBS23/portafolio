@@ -1,0 +1,36 @@
+{
+	"acknowledgments": [
+		{ 
+			"person": "Plataforma - Vercel",
+			"link": "https://vercel.com/rfbs19s-projects",
+			"note": "Aqui estan mis proyectos web gratis!"
+		}
+	],
+
+	"links": [
+		{ 
+			"person": "Marketplace",
+			"link": "",
+			"note": "Mi Página Web se encuentra en desarrollo."
+		}
+	],
+
+	"social": [
+		{
+			"url": "https://www.instagram.com/fabrizio_barrios18?igsh=MWphcnZlNHR1bWZjeA==",
+			"icon": "instagram"
+		},
+		{
+			"url": "https://www.youtube.com/@FabriDev",
+			"icon": "youtube"
+		},
+		{
+			"url": "https://www.linkedin.com/in/fabrizio-barrios-55b5861b7/",
+			"icon": "linkedin"
+		},
+		{
+			"url": "https://github.com/RFBS23",
+			"icon": "github"
+		}
+	]
+}
