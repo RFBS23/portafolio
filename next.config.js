@@ -1,6 +1,4 @@
 module.exports = {
-	basePath: '/portafolio',
-	assetPrefix: '/portafolio/',
 	reactStrictMode: true,
 	images: {
 		remotePatterns: [

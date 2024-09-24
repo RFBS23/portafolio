@@ -1,9 +1,10 @@
 {
 	"scripts": {
-		"dev": "next dev",
+		"dev": "next",
 		"build": "next build",
 		"start": "next start",
-		"export": "next export"
+		"lint": "next lint",
+		"test": "jest --watch"
 	},
 	"dependencies": {
 		"@fontsource/fira-code": "^4.5.12",
