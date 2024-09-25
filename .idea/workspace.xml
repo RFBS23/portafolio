@@ -5,10 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09e38e68-e443-4872-bc09-5ac511f56017" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/.name" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
@@ -20,6 +16,9 @@
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/sections/index/technical.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/sections/index/technical.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/index/hero.json" beforeDir="false" afterPath="$PROJECT_DIR$/content/index/hero.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../public/favicon.ico" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../public/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/App.css" beforeDir="false" />
@@ -97,7 +96,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitToolBoxStore">
     <option name="recentBranches">
@@ -179,11 +178,25 @@
       <updated>1727156076748</updated>
       <workItem from="1727156079584" duration="8467000" />
       <workItem from="1727170144322" duration="22000" />
+      <workItem from="1727170189079" duration="1211000" />
+      <workItem from="1727171430839" duration="4195000" />
+      <workItem from="1727221537257" duration="626000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
