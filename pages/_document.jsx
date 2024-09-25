@@ -1,6 +1,6 @@
 // Default core packages
 import { Html, Head, Main, NextScript } from 'next/document'
-
+import { Analytics } from '@vercel/analytics/react';
 /**
  * Load custom scripts in <Head>
  * 
@@ -23,6 +23,7 @@ export default function Document() {
 			<Main/>
 			<NextScript />
 			</body>
+			<Analytics />
 		</Html>
 	)
 }
