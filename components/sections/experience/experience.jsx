@@ -24,9 +24,9 @@ export default function Index() {
 		<Section classProp={`${career.section} borderBottom`}>
 			<Container spacing={['verticalXXXLrg']}>
 				<SectionTitle
-					title="Index"
-					preTitle="Index"
-					subTitle="I am current managing, designing, and developing all consumer and digital product initiatives at My Supply Co."
+					title="Experiencia"
+					preTitle="MI"
+					subTitle="Tengo experiencia en desarrollo de software con múltiples lenguajes, aplicando conocimientos prácticos y soluciones eficientes."
 				/>
 				<section className={career.area}>
 					<article className={career.company}>

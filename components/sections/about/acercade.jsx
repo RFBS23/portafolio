@@ -29,7 +29,7 @@ export default function About() {
 			<Container spacing={['verticalXXXLrg']}>
 				<SectionTitle
 					title="Acerca de mi"
-					preTitle="Synopsis"
+					preTitle=""
 					subTitle="With a diverse skill set that includes UX design, UI design, full stack development, operational architecture, systems design, photography, and branding, I am a well-rounded digital professional."
 				/>
 				<section className={about.content}>

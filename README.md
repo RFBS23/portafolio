@@ -21,6 +21,6 @@ Si tienes alguna pregunta o sugerencia, no dudes en contactarme a través de [fa
 
 ## Desarrollador
 
-<h3><b>Aplicacion Desarrollada por:</b> Fabrizio Barrios Saavedra (RFBS23 - FabriDev)</h3>
+<h3><b>Portafolio Desarrollado por:</b> Fabrizio Barrios Saavedra (RFBS23 - FabriDev)</h3>
 <img src="public/img/foter.jpg" width="200" alt="avatar">
 <hr>

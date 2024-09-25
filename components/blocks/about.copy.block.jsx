@@ -5,7 +5,7 @@ import Icon from '../utils/icon.util'
 import space from '../utils/spacing.util';
 
 /**
- * About section component block that contains the written copy
+ * Acercade section component block that contains the written copy
  * 
  * @param {string} 	classProp template literals of classes for contain
  * @param {array}	icon request props [ iconType, iconKey ] 

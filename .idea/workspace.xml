@@ -5,6 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09e38e68-e443-4872-bc09-5ac511f56017" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/sections/about/acercade.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/sections/experience/experience.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/about/_colors.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/experience/_colors.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/about/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/experience/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/sections/index/technical.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/sections/index/technical.module.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/sections/index/technical.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/.name" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
@@ -16,6 +26,23 @@
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/blocks/about.copy.block.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/blocks/about.copy.block.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/layout/footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/layout/footer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/layout/navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/layout/navbar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/sections/index/about.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/sections/index/about.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/sections/index/career.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/sections/index/career.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/sections/index/looking.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/sections/index/looking.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/sections/index/technical.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/sections/index/technical.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/sections/projects/featured.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/sections/projects/featured.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/sections/projects/recent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/sections/projects/recent.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/_settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/content/_settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/index/hero.json" beforeDir="false" afterPath="$PROJECT_DIR$/content/index/hero.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/navbar.json" beforeDir="false" afterPath="$PROJECT_DIR$/content/navbar.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/projects/featured.json" beforeDir="false" afterPath="$PROJECT_DIR$/content/projects/featured.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/sections/index/career.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/sections/index/career.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../public/favicon.ico" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../public/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/App.css" beforeDir="false" />
@@ -135,10 +162,12 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/fabri/Documents/Programacion/React/portafolio/public/img",
+    "last_opened_file_path": "C:/Users/fabri/Documents/Programacion/React/portafolio/components/sections/experience",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -151,11 +180,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\fabri\Documents\Programacion\React\portafolio\components\sections\experience" />
+      <recent name="C:\Users\fabri\Documents\Programacion\React\portafolio\content\experience" />
+      <recent name="C:\Users\fabri\Documents\Programacion\React\portafolio\components\sections\about" />
+      <recent name="C:\Users\fabri\Documents\Programacion\React\portafolio\content\about" />
       <recent name="C:\Users\fabri\Documents\Programacion\React\portafolio\public\img" />
-      <recent name="C:\Users\fabri\Documents\Programacion\React\portafolio\public" />
-      <recent name="C:\Users\fabri\Documents\Programacion\React\portafolio\public\favicon" />
-      <recent name="C:\Users\fabri\Documents\Programacion\React\portafolio" />
-      <recent name="C:\Users\fabri\Documents\Programacion\React\portafolio\styles" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -178,7 +207,8 @@
       <workItem from="1727170144322" duration="22000" />
       <workItem from="1727170189079" duration="1211000" />
       <workItem from="1727171430839" duration="4195000" />
-      <workItem from="1727221537257" duration="5059000" />
+      <workItem from="1727221537257" duration="10623000" />
+      <workItem from="1727284665507" duration="6368000" />
     </task>
     <servers />
   </component>

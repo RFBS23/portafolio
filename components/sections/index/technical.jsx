@@ -14,7 +14,7 @@ import BadgesBlock from '../../blocks/about.badges.block'
 import CopyBlock from '../../blocks/about.copy.block'
 
 // Section scss
-import about from '../../../styles/sections/index/about.module.scss'
+import about from '../../../styles/sections/index/technical.module.scss'
 
 /**
  * Section: Technical
@@ -30,7 +30,7 @@ export default function Technical() {
 				<SectionTitle
 					title="Habilidades"
 					preTitle="Mis Habilidades"
-					subTitle="As a creative technologist, I craft intuitive digital experiences using a diverse set of tools and languages."
+					subTitle="As a creative technologist,, I craft intuitive digital experiences using a diverse set of tools and languages."
 				/>
 				<section className={`${about.content} ${about.container}`}>
 					<div className={about.copy}>
@@ -51,6 +51,9 @@ export default function Technical() {
 							containerClass={about.container}
 							headerIcon={about.icon}
 						/>
+					</div>
+
+					<div className={about.copy}>
 						<BadgesBlock
 							title="Technologies I love to build with"
 							copy="I deeply enjoy solving problems through code. From the front end all the way to the back end and the APIs in-between. No project is too challenging for me."
@@ -61,9 +64,6 @@ export default function Technical() {
 							containerClass={about.container}
 							headerIcon={about.icon}
 						/>
-					</div>
-
-					<div className={about.copy}>
 						<CopyBlock
 							title="Polymath foundations"
 							icon={['fat', 'chart-network']}
@@ -71,19 +71,11 @@ export default function Technical() {
 							iconClass={about.icon}
 							containerClass={about.container}
 						/>
-						<BadgesBlock
-							title="Software I love to work with"
-							copy="With over 20 years of experience creating digital assets, I have a deep and intuitive understanding of how the interfaces of the best software products in the world are designed. This is just some of the software I have used over that time."
-							list={software}
-							block="software"
-							fullContainer="fullContainer"
-							icon="grid-2-plus"
-							containerClass={about.container}
-							headerIcon={about.icon}
-						/>
 					</div>
+
 					<div className={`${about.image} ${about.technicalSvg}`}>
-						<Image src="/img/dataism-24.svg" width={480} height={1111} alt="Data Strings 01 by Colorpong: https://ywft.us/2177b695b"/>
+						<Image src="/img/dataism-24.svg" width={480} height={1111}
+							   alt="Data Strings 01 by Colorpong: https://ywft.us/2177b695b"/>
 					</div>
 				</section>
 			</Container>

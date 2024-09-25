@@ -17,7 +17,7 @@ export default function FeaturedProjects() {
 		<Section classProp={css.hasBg}>	
 			<Container spacing={'verticalXXXXLrg'}>
 				<SectionTitle
-					title="Proyectos Destacados"
+					title="Mis Proyectos"
 					preTitle="Programador Full Stack y diseñador web y UX"
 					subTitle="Centrado en la experiencia, impulsado por la ingeniería."
 				/> 				{
@@ -30,9 +30,11 @@ export default function FeaturedProjects() {
 			</Container>
 			<div className={css.bgContainer}>
 				<span className={css.orbitalBg}>
-					<span class={`${css.bgSection}`}><span className={`${css.bgInner} ${css.heroLeft} ${css.heroOrbital}`}></span></span>
+					<span class={`${css.bgSection}`}><span
+						className={`${css.bgInner} ${css.heroLeft} ${css.heroOrbital}`}></span></span>
 					<span class={`${css.bgSection}`}><span className={`${css.bgInner} ${css.heroCenter}`}></span></span>
-					<span class={`${css.bgSection}`}><span className={`${css.bgInner} ${css.heroRight} ${css.heroOrbital}`}></span></span>
+					<span class={`${css.bgSection}`}><span
+						className={`${css.bgInner} ${css.heroRight} ${css.heroOrbital}`}></span></span>
 				</span>
 				<span className={css.afterGlowBg}></span>
 			</div>

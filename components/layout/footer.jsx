@@ -33,7 +33,7 @@ export default function Footer() {
 			<Container spacing={['verticalXXLrg', 'bottomLrg']}>
 				<section className={css.sections}>
 					<ul className={css.thanks}>
-						<li><h4>Acknowledgments</h4></li>
+						<li><h4>Repositorios</h4></li>
 						{
 						content.acknowledgments.map( ({ person, link, note }, index) => {
 							return (
@@ -46,7 +46,7 @@ export default function Footer() {
 						}
 					</ul>
 					<ul className={css.links}>
-						<li><h4>Links</h4></li>
+						<li><h4>Enlaces</h4></li>
 						{
 						content.links.map( ({ person, link, note }, index) => {
 							return (
@@ -59,7 +59,7 @@ export default function Footer() {
 						}
 					</ul>
 					<ul className={css.social}>
-						<li><h4>Social</h4></li>
+						<li><h4>Redes Sociales</h4></li>
 						<li className={css.socialList}>
 							{
 							content.social.map( ({ url, icon }, index) => {
