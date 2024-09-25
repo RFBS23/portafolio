@@ -25,7 +25,7 @@ import about from '../../../styles/sections/index/about.module.scss'
  */
 export default function Technical() {
 	return (
-		<Section classProp={`${about.section} borderBottom`}>	
+		<Section classProp={`${about.section} borderBottom`}>
 			<Container spacing={['verticalXXXLrg']}>
 				<SectionTitle
 					title="Habilidades"
@@ -83,8 +83,7 @@ export default function Technical() {
 						/>
 					</div>
 					<div className={`${about.image} ${about.technicalSvg}`}>
-						<Image src="/img/dataism-24.svg" width={477} height={1111}
-							   alt="Data Strings 01 by Colorpong: https://ywft.us/2177b695b"/>
+						<Image src="/img/dataism-24.svg" width={480} height={1111} alt="Data Strings 01 by Colorpong: https://ywft.us/2177b695b"/>
 					</div>
 				</section>
 			</Container>
