@@ -14,11 +14,6 @@ import SectionGridBg from '../../blocks/section.grid.block'
 // Index scss
 import career from '../../../styles/sections/index/career.module.scss'
 
-/**
- * Section: Index
- *
- * @returns {jsx} <Index />
- */
 export default function Index() {
 	return (
 		<Section classProp={`${career.section} borderBottom`}>
@@ -38,7 +33,10 @@ export default function Index() {
 								<h5>Vancouver, British Columbia, Canada</h5>
 							</span>
 							<p>
-							My Supply Co. helps Canadians manage mental and physical health with naturally occurring nootropic and adaptogenic products. They carry products with complex attributes, aiming to solve a large variety of personal care needs — this requires an extremely customized and evolving approach to how the store is built and functions.
+								My Supply Co. helps Canadians manage mental and physical health with naturally occurring
+								nootropic and adaptogenic products. They carry products with complex attributes, aiming
+								to solve a large variety of personal care needs — this requires an extremely customized
+								and evolving approach to how the store is built and functions.
 							</p>
 						</div>
 						<div className={career.companyAlt}></div>
@@ -52,7 +50,10 @@ export default function Index() {
 									<h4>Nov 2021 - Present · 1 yrs 3 mos</h4>
 								</span>
 								<p>
-								I am responsible for the ideation, planning, and development of new consumer goods—and customer and employee facing microservice software. During these projects I work with key stakeholders within our company and supplychain to ensure and meet quality goals across multiple domains.
+									I am responsible for the ideation, planning, and development of new consumer
+									goods—and customer and employee facing microservice software. During these projects
+									I work with key stakeholders within our company and supplychain to ensure and meet
+									quality goals across multiple domains.
 								</p>
 							</div>
 							<div className={career.positionAlt}></div>
@@ -65,10 +66,16 @@ export default function Index() {
 									<h4>Feb 2020 - Nov 2021 · 1 yrs 10 mos</h4>
 								</span>
 								<p>
-								As the lead full stack developer I am responsible for all software development, CI/CD, and QA. This is for the front end, APIs, and the back end. Additionally I was tasked with identifying and analyzing weak points in the customer journey and employee workflows. Each project had to be estimated and prioritized based on its workload and immediate impact to efficiency or revenue. Some of these projects have been so successful internally that we have planned refactoring for commercialization. 
+									As the lead full stack developer I am responsible for all software development,
+									CI/CD, and QA. This is for the front end, APIs, and the back end. Additionally I was
+									tasked with identifying and analyzing weak points in the customer journey and
+									employee workflows. Each project had to be estimated and prioritized based on its
+									workload and immediate impact to efficiency or revenue. Some of these projects have
+									been so successful internally that we have planned refactoring for
+									commercialization.
 								</p>
 								<p>
-								Some key projects complete during this time 👇
+									Some key projects complete during this time 👇
 								</p>
 								<ul className={career.list}>
 									<li>
@@ -76,7 +83,7 @@ export default function Index() {
 										<span className={career.subList}><span className={career.bullet}></span>Eradicated critical data input errors</span>
 									</li>
 									<li>
-										Inventory management reporting and automation 
+										Inventory management reporting and automation
 										<span className={career.subList}><span className={career.bullet}></span>Decreased purchasing labour by ~80%</span>
 									</li>
 									<li>
@@ -92,7 +99,7 @@ export default function Index() {
 							</div>
 							<div className={career.positionAlt}></div>
 						</div>
-					
+
 						<div className={career.position}>
 							<div className={career.positionContent}>
 									<span class={career.positionHeader}>
@@ -100,7 +107,10 @@ export default function Index() {
 										<h4>Apr 2019 - Feb 2020 · 11 mos</h4>
 									</span>
 								<p>
-									I was brought on to help fill multiple creative rolls in a small start-up environment. Working with the marketing team to create the brand and logos — designing and developing a new front end for the website — and improving the users experience and store KPIs through design and merchandising optimizations.
+									I was brought on to help fill multiple creative rolls in a small start-up
+									environment. Working with the marketing team to create the brand and logos —
+									designing and developing a new front end for the website — and improving the users
+									experience and store KPIs through design and merchandising optimizations.
 								</p>
 								<p>
 									Some key projects completed during this time 👇
@@ -110,11 +120,12 @@ export default function Index() {
 										Full functionality interactive shopping cart to replace cart page
 										<span className={career.subList}><span className={career.bullet}></span>Increased conversions by 0.7%</span>
 									</li>
-									<li>Complex multi-state animated menus represented in an elegant UI 
+									<li>Complex multi-state animated menus represented in an elegant UI
 										<span className={career.subList}><span className={career.bullet}></span>Strong brand confidence booster with state of the art menu</span>
 									</li>
 									<li>
-										Design and development of the site and merchandising strategy optimized for market
+										Design and development of the site and merchandising strategy optimized for
+										market
 										<span className={career.subList}><span className={career.bullet}></span>7.1% overall conversion rate </span>
 									</li>
 								</ul>
@@ -133,7 +144,9 @@ export default function Index() {
 								<h5>Vancouver, British Columbia, Canada</h5>
 							</span>
 							<p>
-							Another Creative is a full stack agency that helps deliver exceptional digital experiences to small and medium businesses. Branding, Marketing, and Web/Software Development.
+								Another Creative is a full stack agency that helps deliver exceptional digital
+								experiences to small and medium businesses. Branding, Marketing, and Web/Software
+								Development.
 							</p>
 						</div>
 						<div className={career.companyAlt}></div>
@@ -148,7 +161,8 @@ export default function Index() {
 								<h5>Vancouver, British Columbia, Canada</h5>
 							</span>
 							<p>I was the Electronics Wizard 🧙‍♂️</p>
-							<p>West Coast Electronics was a repair shop that fixed computers, consoles, and cell phones.</p>
+							<p>West Coast Electronics was a repair shop that fixed computers, consoles, and cell
+								phones.</p>
 						</div>
 						<div className={career.companyAlt}></div>
 					</article>
@@ -158,11 +172,11 @@ export default function Index() {
 	)
 }
 
-const fullStack	= [
-	{ key: 'javascript', 	name: 'JavaScript', 		type: 'devicon' },
-	{ key: 'nodejs', 		name: 'NodeJS', 			type: 'devicon' },
-	{ key: 'react', 		name: 'React', 				type: 'devicon' },
-	{ key: 'nextjs', 		name: 'NextJS', 			type: 'devicon' },
+const fullStack = [
+	{key: 'javascript', name: 'JavaScript', type: 'devicon'},
+	{key: 'nodejs', name: 'NodeJS', type: 'devicon'},
+	{key: 'react', name: 'React', type: 'devicon'},
+	{key: 'nextjs', 		name: 'NextJS', 			type: 'devicon' },
 	{ key: 'php', 			name: 'PHP', 				type: 'devicon' },
 	{ key: 'wordpress', 	name: 'WordPress', 			type: 'devicon' },
 	{ key: 'woocommerce', 	name: 'WooCommerce', 		type: 'devicon' },

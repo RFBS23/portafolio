@@ -1,0 +1,57 @@
+[
+  {
+    "project": "Scanner QR.",
+    "url": "https://github.com/RFBS23/Scanner_QR/releases/download/V.1.1.0/Scanner.QR.apk",
+    "repo": "Publico",
+    "descriptionTitle": "Proyecto QR Scanner para escanear códigos QR fácilmente.",
+    "description": "Funciona en Flutter y ofrece una interfaz simple y rápida.",
+    "imageOptions": [
+    ],
+    "images": [
+      { "key": "mock-stack",	"hover": "right", 	"h": "500", "w": "500", "url": "/img/scanner/mockup-scanner.png" }
+    ],
+    "stack": [
+      { "key": "flutter", "name": "Flutter", "type": "devicon" },
+      { "key": "dart", "name": "Dart", "type": "devicon" },
+      { "key": "android", "name": "Android", "type": "devicon" },
+      { "key": "swift", "name": "Swift", "type": "devicon" },
+      { "key": "apple", "name": "IOS", "type": "devicon" }
+    ]
+  },
+  {
+    "project": "Ahorcados",
+    "url": "https://github.com/RFBS23/Ahorcados/releases/download/1.0.1/Ahorcados.-.FabriDev.msi",
+    "repo": "Publico",
+    "descriptionTitle": "¡Bienvenido a Ahorcados!",
+    "description": "El jugador debe adivinar la palabra secreta letra por letra antes de que se complete el dibujo del ahorcado.",
+    "imageOptions": [
+      { "key": "size", 		"value": "large" }
+    ],
+    "images": [
+      { "key": "portfolio", "hover": "left", "h": "450", "w": "560",  "url": "/img/ahorcados/desktop.png" }
+    ],
+    "stack": [
+      { "key": "csharp", "name": "C#", "type": "devicon" }
+    ]
+  },
+  {
+    "project": "Scanner QR.",
+    "url": "https://github.com/RFBS23/Scanner_QR/releases/download/V.1.1.0/Scanner.QR.apk",
+    "repo": "Publico",
+    "descriptionTitle": "Proyecto QR Scanner para escanear códigos QR fácilmente.",
+    "description": "Funciona en Flutter y ofrece una interfaz simple y rápida.",
+    "imageOptions": [
+    ],
+    "images": [
+      { "key": "mock-stack",	"hover": "right", 	"h": "1200", "w": "556", "url": "/img/msc-mock_stack/03.png" },
+      { "key": "mock-stack",	"hover": "right",	"h": "1200", "w": "556", "url": "/img/msc-mock_stack/02.png" },
+      { "key": "mock-stack",	"hover": "left",	"h": "1200", "w": "556", "url": "/img/msc-mock_stack/01.png" }
+    ],
+    "stack": [
+      { "key": "flutter", "name": "Flutter", "type": "devicon" },
+      { "key": "dart", "name": "Dart", "type": "devicon" },
+      { "key": "android", "name": "Android", "type": "devicon" },
+      { "key": "swift", "name": "Swift", "type": "devicon" }
+    ]
+  }
+]

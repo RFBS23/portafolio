@@ -23,15 +23,15 @@ export default function Looking() {
 	return (
 		<Section classProp={`${looking.section} borderBottom`}>
 			<Container classProp={`${section.title} ${looking.container}`} spacing={['verticalXXXLrg']}>
-				<h4>Actualmente estoy buscando empleo.</h4>
+				<h4>Actualmente estoy Trabajando como FREELANCER y Diseñador Web & UX.</h4>
 				<h2 className={looking.json}>Junior : &#123;</h2>
 				<h2 className={looking.jsonSub}><span className={looking.highlight}>Ingeniero Back y Front End</span>,</h2>
-				<h2 className={looking.jsonSub}><span className={looking.highlight2}>Diseñador Web y Experiencia de Usuario</span>
-				</h2>
+				<h2 className={looking.jsonSub}><span className={looking.highlight2}>Diseñador Web y UX</span></h2>
 				<h2 className={looking.json}>&#125;</h2>
-				<h4>Estoy particularmente interesado en puestos de interfaz de producto donde pueda ayudar a generar un impacto en toda la organización.</h4>
-				{/* <h2>Senior <span className={looking.highlight}>User Index</span> Designer</h2> */}
-				{/* <p className="subtitle">with a focus on Product Design.</p> */}
+				<h4>Me interesa especialmente trabajar en roles enfocados en la interfaz de producto, donde pueda contribuir significativamente al éxito organizacional, con un enfoque centrado en el diseño de productos.</h4>
+				{/*<h2>Diseñador <span className={looking.highlight}>Web y UX</span></h2>*/}
+				{/*<h2 className={looking.highlight}><span className={looking.highlight}>Diseñador Web y UX</span></h2>*/}
+				{/*<p className="subtitle">con enfoque en el Diseño de Productos.</p>*/}
 			</Container>
 		</Section>
 	)

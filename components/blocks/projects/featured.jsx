@@ -9,6 +9,9 @@ import Icon 		from '../../utils/icon.util'
 
 import css 			from '../../../styles/sections/projects/featured.module.scss'
 import content 		from '../../../content/projects/featured.json'
+import Link from 'next/link';
+/** @jsxImportSource @emotion/react */
+import { css as emotionCss } from '@emotion/react';
 
 export default function FeaturedProject({ content }, index) {
 
@@ -48,14 +51,28 @@ export default function FeaturedProject({ content }, index) {
 						<Badges list={stack} block="stack" fullContainer={false} color={false} />
 					</div>
 					<m.div variants={''} className={css.viewProject}>
-						<Icon icon={[ 'fad', 'arrow-right-to-bracket' ]} />
+						<Link href="/proyectos/">
+							<a css={emotionCss`
+								  display: inline-flex;
+								  align-items: center;
+								
+								  @media (max-width: 768px) {
+									.ver-mas-text {
+									  display: none;
+									}
+								  }
+								`}>
+								<span className="ver-mas-text">Ver Más &nbsp;</span>
+								<Icon icon={['fad', 'arrow-right-to-bracket']}/>
+							</a>
+						</Link>
 					</m.div>
 				</div>
 			</div>
 
 			<div className={css.imageContainer}>
 				<span className={`${css.imageAnimationContainer}`}>
-					{ images.map( ({key, url, hover, h, w }, index) => {
+					{images.map(({key, url, hover, h, w}, index) => {
 						hover = ( hover === 'left' ) ? hoverLeft : hoverRight
 						return (
 							<m.div key={`${index}-${key}`} variants={item}>
