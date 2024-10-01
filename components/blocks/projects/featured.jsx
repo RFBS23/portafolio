@@ -44,23 +44,6 @@ export default function FeaturedProject({ content }, index) {
                     <div className={css.header}>
                         <h3 className="highlight">{project}</h3>
                         <span className={css.privateOr}><i className="devicon-github-plain"></i>{repo}</span>
-                        <m.div variants={''} className={css.viewProject}>
-                            <Link href="/proyectos/">
-                                <a css={emotionCss`
-                                    display: inline-flex;
-                                    align-items: center;
-
-                                    @media (max-width: 768px) {
-                                        .ver-mas-text {
-                                            display: none;
-                                        }
-                                    }
-                                `}>
-                                    <span className="ver-mas-text">Ver Más &nbsp;</span>
-                                    <Icon icon={['fad', 'arrow-right-to-bracket']}/>
-                                </a>
-                            </Link>
-                        </m.div>
                     </div>
                     <div className={css.description}>
                         <p><strong>{descriptionTitle}</strong> {description}</p>

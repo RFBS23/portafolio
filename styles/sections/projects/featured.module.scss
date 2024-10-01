@@ -4,6 +4,17 @@
 	border-bottom: 1px solid var(--primary-dark);
 }
 
+/**/
+.viewProject {
+	display: inline-flex;
+	align-items: center;
+}
+.ver-mas-text {
+	display: inline; /* Mostrar el texto normalmente */
+}
+
+/**/
+
 .project {
 	display: flex;
 	flex-direction: row;
@@ -314,8 +325,28 @@
 				}
 			}
 		}
+
+
+		/* nuevo scss */
+		.smallScreenOnly {
+			display: inline-flex;
+			margin-top: 10px;
+		}
+
+		.largeScreenOnly {
+			display: none;
+		}
+		.smallScreenOnly {
+			display: none;
+		}
+
+		.largeScreenOnly {
+			display: inline-flex;
+			margin-top: 10px;
+		}
+		/*fin nuevo scss*/
 	}
-	
+
 	.bgContainer {
 		.orbitalBg {
 			width: unset;
@@ -323,4 +354,5 @@
 		}
 	}
 }
+
 

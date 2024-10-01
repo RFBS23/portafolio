@@ -18,7 +18,8 @@
       <change beforePath="$PROJECT_DIR$/../package.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/blocks/projects/featured.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/blocks/projects/featured.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/projects/featured.json" beforeDir="false" afterPath="$PROJECT_DIR$/content/projects/featured.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/blocks/projects/proyectos.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/blocks/projects/proyectos.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/sections/projects/featured.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/sections/projects/featured.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../public/favicon.ico" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../public/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/App.css" beforeDir="false" />
@@ -194,7 +195,7 @@
       <workItem from="1727587399826" duration="14029000" />
       <workItem from="1727603043330" duration="7000" />
       <workItem from="1727632114184" duration="6287000" />
-      <workItem from="1727757489615" duration="1958000" />
+      <workItem from="1727757489615" duration="3967000" />
     </task>
     <servers />
   </component>
