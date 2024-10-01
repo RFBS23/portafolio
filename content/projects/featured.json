@@ -1,19 +1,21 @@
 [
 	{
-		"project": "Flor Amarilla.",
+		"project": "Crud Automoviles.",
 		"url": "/proyectos/",
 		"repo": "Publico",
-		"descriptionTitle": "Feliz dia de la Amistad!!",
-		"description": "Esta flor esta hecha Python junto con las librerias Turtle y math.",
+		"descriptionTitle": "¡Controla tus vehículos al instante!",
+		"description": "Añade, actualiza, visualiza y elimina automóviles de manera rápida e intuitiva desde tu móvil.",
 		"imageOptions": [
+			{ "key": "size", 		"value": "large" }
 		],
 		"images": [
-			{ "key": "mock-stack",	"hover": "right", 	"h": "450", "w": "650", "url": "/img/flor/desktop.png" },
-			{ "key": "mock-stack",	"hover": "left",	"h": "400", "w": "400", "url": "/img/flor/phone.png" }
+			{ "key": "mock-stack",	"hover": "right",	"h": "790", "w": "650", "url": "/img/crudautomoviles/Blue.png" }
 		],
 		"stack": [
-			{ "key": "python", "name": "Python", "type": "devicon" },
-			{ "key": "pycharm", "name": "Pycharm", "type": "devicon" }
+			{ "key": "android", "name": "Android", "type": "devicon" },
+			{ "key": "androidstudio", "name": "Android Studio", "type": "devicon" },
+			{ "key": "java", "name": "Java", "type": "devicon" },
+			{ "key": "sqlite", "name": "DB Browser (SQLite)", "type": "devicon" }
 		]
 	},
 	{
@@ -26,8 +28,7 @@
 			{ "key": "size", 		"value": "large" }
 		],
 		"images": [
-			{ "key": "mock-stack",	"hover": "right",	"h": "400", "w": "500", "url": "/img/corazonpy/desktopcorazon.png" },
-			{ "key": "mock-stack",	"hover": "left", 	"h": "400", "w": "400", "url": "/img/corazonpy/phone.png" }
+			{ "key": "mock-stack",	"hover": "right",	"h": "400", "w": "500", "url": "/img/corazonpy/desktopcorazon.png" }
 		],
 		"stack": [
 			{ "key": "python", "name": "Python", "type": "devicon" }

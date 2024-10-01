@@ -35,23 +35,52 @@
     ]
   },
   {
-    "project": "Scanner QR.",
-    "url": "https://github.com/RFBS23/Scanner_QR/releases/download/V.1.1.0/Scanner.QR.apk",
+    "project": "Fantasma Love.",
+    "url": "https://rfbs23.github.io/fantasma-love/",
     "repo": "Publico",
-    "descriptionTitle": "Proyecto QR Scanner para escanear códigos QR fácilmente.",
-    "description": "Funciona en Flutter y ofrece una interfaz simple y rápida.",
+    "descriptionTitle": "¡Ánimos, que el amor está en todos lados, hasta en el más allá!",
+    "description": "Hasta el fantasma encontró su media alma y te anda declarando su amor.. \uD83E\uDD23\uD83D\uDC7B.",
+    "imageOptions": [
+      { "key": "size", 		"value": "large" }
+    ],
+    "images": [
+      { "key": "portfolio", "hover": "right", "h": "460", "w": "560", "url": "/img/fantasmalove/portatil.png" }
+    ],
+    "stack": [
+      { "key": "html5", "name": "HTML 5", "type": "devicon" },
+      { "key": "css3", "name": "CSS 3", "type": "devicon" }
+    ]
+  },
+  {
+    "project": "Flor Amarilla.",
+    "url": "/proyectos/",
+    "repo": "Publico",
+    "descriptionTitle": "Feliz dia de la Amistad!!",
+    "description": "Esta flor esta hecha Python junto con las librerias Turtle y math.",
     "imageOptions": [
     ],
     "images": [
-      { "key": "mock-stack",	"hover": "right", 	"h": "1200", "w": "556", "url": "/img/msc-mock_stack/03.png" },
-      { "key": "mock-stack",	"hover": "right",	"h": "1200", "w": "556", "url": "/img/msc-mock_stack/02.png" },
-      { "key": "mock-stack",	"hover": "left",	"h": "1200", "w": "556", "url": "/img/msc-mock_stack/01.png" }
+      { "key": "mock-stack",	"hover": "left", 	"h": "450", "w": "650", "url": "/img/flor/desktop.png" }
     ],
     "stack": [
-      { "key": "flutter", "name": "Flutter", "type": "devicon" },
-      { "key": "dart", "name": "Dart", "type": "devicon" },
-      { "key": "android", "name": "Android", "type": "devicon" },
-      { "key": "swift", "name": "Swift", "type": "devicon" }
+      { "key": "python", "name": "Python", "type": "devicon" },
+      { "key": "pycharm", "name": "Pycharm", "type": "devicon" }
+    ]
+  },
+  {
+    "project": "Corazón",
+    "url": "/proyectos/",
+    "repo": "Publico",
+    "descriptionTitle": "Corazón Python",
+    "description": "Esta hecho con la libreria Turtle y con el editor Pycharm",
+    "imageOptions": [
+      { "key": "size", 		"value": "large" }
+    ],
+    "images": [
+      { "key": "mock-stack",	"hover": "right",	"h": "400", "w": "500", "url": "/img/corazonpy/desktopcorazon.png" }
+    ],
+    "stack": [
+      { "key": "python", "name": "Python", "type": "devicon" }
     ]
   }
 ]

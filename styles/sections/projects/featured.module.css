@@ -2,17 +2,12 @@
   border-bottom: 1px solid var(--primary-dark);
 }
 
-/**/
+/*nuevo css
 .viewProject {
-  display: inline-flex;
-  align-items: center;
-}
-
-.ver-mas-text {
-  display: inline; /* Mostrar el texto normalmente */
-}
-
-/**/
+	display: inline-flex;
+	align-items: center;
+}*/
+/* fin css */
 .project {
   display: flex;
   flex-direction: row;
@@ -101,7 +96,6 @@
 }
 .imageContainer .imageAnimationContainer {
   position: absolute;
-  overflow: hidden;
   border-radius: 2rem;
   height: calc(100% - 6rem);
   width: calc(100% + 9rem);
@@ -214,7 +208,23 @@
 
 @media screen and (max-width: 767px) {
   .project {
-    /* nuevo scss */
+    /* nuevo scss
+    .smallScreenOnly {
+    	display: inline-flex;
+    	margin-top: 10px;
+    }
+
+    .largeScreenOnly {
+    	display: none;
+    }
+    .smallScreenOnly {
+    	display: none;
+    }
+
+    .largeScreenOnly {
+    	display: inline-flex;
+    	margin-top: 10px;
+    }*/
     /*fin nuevo scss*/
   }
   .project:nth-of-type(n) {
@@ -240,6 +250,7 @@
   .project:nth-of-type(n) .imageContainer {
     height: 100px;
     width: 100%;
+    display: none;
   }
   .project:nth-of-type(n) .imageAnimationContainer {
     height: calc(100% + 6rem);
@@ -253,20 +264,6 @@
   }
   .project:nth-of-type(2n) .imageAnimationContainer > div > div > span {
     right: 0rem;
-  }
-  .project .smallScreenOnly {
-    display: inline-flex;
-    margin-top: 10px;
-  }
-  .project .largeScreenOnly {
-    display: none;
-  }
-  .project .smallScreenOnly {
-    display: none;
-  }
-  .project .largeScreenOnly {
-    display: inline-flex;
-    margin-top: 10px;
   }
   .bgContainer .orbitalBg {
     width: unset;

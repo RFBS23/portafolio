@@ -4,16 +4,12 @@
 	border-bottom: 1px solid var(--primary-dark);
 }
 
-/**/
+/*nuevo css
 .viewProject {
 	display: inline-flex;
 	align-items: center;
-}
-.ver-mas-text {
-	display: inline; /* Mostrar el texto normalmente */
-}
-
-/**/
+}*/
+/* fin css */
 
 .project {
 	display: flex;
@@ -123,7 +119,7 @@
 
 	.imageAnimationContainer {
 		position: absolute;
-		overflow: hidden;
+		//overflow: hidden;
 		border-radius: 2rem;
 		height: calc(100% - 6rem);
 		width: calc(100% + 9rem);
@@ -290,6 +286,7 @@
 			.imageContainer {
 				height: 100px;
 				width: 100%;
+				display: none;
 			}
 
 			.imageAnimationContainer {
@@ -327,7 +324,7 @@
 		}
 
 
-		/* nuevo scss */
+		/* nuevo scss
 		.smallScreenOnly {
 			display: inline-flex;
 			margin-top: 10px;
@@ -343,7 +340,7 @@
 		.largeScreenOnly {
 			display: inline-flex;
 			margin-top: 10px;
-		}
+		}*/
 		/*fin nuevo scss*/
 	}
 

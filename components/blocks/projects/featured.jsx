@@ -52,30 +52,27 @@ export default function FeaturedProject({ content }, index) {
                         <Badges list={stack} block="stack" fullContainer={false} color={false}/>
                     </div>
                     <m.div variants={''} className={css.viewProject}>
-                        <Link href="/proyectos/">
-                            <a css={emotionCss`
-                                    display: inline-flex;
-                                    align-items: center;
-
-                                    @media (max-width: 768px) {
-                                        .ver-mas-text {
-                                            display: none;
-                                        }
-                                    }
-                                `}>
+						<Link href="/proyectos/">
+							<a css={emotionCss` display: inline-flex; align-items: center;`}>
+								<span className="ver-mas-text">Ver Más &nbsp;</span>
+								<Icon icon={['fad', 'arrow-right-to-bracket']}/>
+							</a>
+							{/*
+                            <a css={emotionCss` display: inline-flex; align-items: center; @media (max-width: 768px) { .ver-mas-text { display: none; } } `}>
                                 <span className="ver-mas-text">Ver Más &nbsp;</span>
                                 <Icon icon={['fad', 'arrow-right-to-bracket']}/>
                             </a>
-                        </Link>
-                    </m.div>
-                    <m.div variants={''} className={css.viewProject}>
-                    </m.div>
-                    <m.div variants={''} className={css.viewProject}>
-                    </m.div>
-                </div>
-            </div>
+                            */}
+						</Link>
+					</m.div>
+					<m.div variants={''} className={css.viewProject}>
+					</m.div>
+					<m.div variants={''} className={css.viewProject}>
+					</m.div>
+				</div>
+			</div>
 
-            <div className={css.imageContainer}>
+			<div className={css.imageContainer}>
 				<span className={`${css.imageAnimationContainer}`}>
 					{images.map(({key, url, hover, h, w}, index) => {
                         hover = (hover === 'left') ? hoverLeft : hoverRight

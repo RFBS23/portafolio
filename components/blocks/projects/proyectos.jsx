@@ -45,10 +45,12 @@ export default function FeaturedProject({ content }, index) {
                     <div className={css.header}>
                         <h3 className="highlight">{project}</h3>
                         <span className={css.privateOr}><i className="devicon-github-plain"></i>{repo}</span>
+                        {/*
                         <m.div className={`${css.viewProject} smallScreenOnly`} onClick={() => window.open(url)} css={emotionCss` display: inline-flex; align-items: center; @media (max-width: 768px) { .ver-mas-text { display: none; } } @media (min-width: 769px) { display: none; } `} >
                             <span className="ver-mas-text">Ver o Descargar &nbsp;</span>
                             <Icon icon={["fad", "fa-download"]}/>
                         </m.div>
+                        */}
                     </div>
 
                     <div className={css.description}>
@@ -59,20 +61,27 @@ export default function FeaturedProject({ content }, index) {
                     <div className={css.stackContainer}>
                         <Badges list={stack} block="stack" fullContainer={false} color={false}/>
                     </div>
+                    <m.div className={`${css.viewProject} largeScreenOnly`} onClick={() => window.open(url)}
+                           css={emotionCss` display: inline-flex; align-items: center;`}>
+                        <span className="ver-mas-text">Ver o Descargar &nbsp;</span>
+                        <Icon icon={["fad", "fa-download"]}/>
+                    </m.div>
 
+                    {/*
                     <m.div className={`${css.viewProject} largeScreenOnly`} onClick={() => window.open(url)} css={emotionCss` display: inline-flex; align-items: center; @media (max-width: 768px) { display: none; } `} >
                         <span className="ver-mas-text">Ver o Descargar &nbsp;</span>
                         <Icon icon={["fad", "fa-download"]}/>
                     </m.div>
+                    */}
                 </div>
             </div>
 
             <div className={css.imageContainer}>
 				<span className={`${css.imageAnimationContainer}`}>
 					{images.map(({key, url, hover, h, w}, index) => {
-                            hover = (hover === 'left') ? hoverLeft : hoverRight
-                            return (
-                                <m.div key={`${index}-${key}`} variants={item}>
+                        hover = (hover === 'left') ? hoverLeft : hoverRight
+                        return (
+                            <m.div key={`${index}-${key}`} variants={item}>
                                     <m.div variants={hover}>
                                         <Image src={url} alt="x" height={h} width={w}/>
                                     </m.div>
