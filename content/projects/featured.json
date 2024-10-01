@@ -4,7 +4,7 @@
 		"url": "/proyectos/",
 		"repo": "Publico",
 		"descriptionTitle": "Feliz dia de la Amistad!!",
-		"description": "Esta flor esta hecha Python junto con las librerias Turtle ymath.",
+		"description": "Esta flor esta hecha Python junto con las librerias Turtle y math.",
 		"imageOptions": [
 		],
 		"images": [
@@ -12,7 +12,8 @@
 			{ "key": "mock-stack",	"hover": "left",	"h": "400", "w": "400", "url": "/img/flor/phone.png" }
 		],
 		"stack": [
-			{ "key": "python", "name": "Python", "type": "devicon" }
+			{ "key": "python", "name": "Python", "type": "devicon" },
+			{ "key": "pycharm", "name": "Pycharm", "type": "devicon" }
 		]
 	},
 	{

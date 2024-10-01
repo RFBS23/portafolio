@@ -38,68 +38,83 @@ export default function FeaturedProject({ content }, index) {
 			initial={[ "rest", "hidden" ]}
 			whileHover="hover"
 			animate={controls} >
-			
-			<div className={css.details}>
-				<div className={css.projectHeader}>
-					<div className={css.header}>
-						<h3 className="highlight">{project}</h3>
-						<span className={css.privateOr}><i className="devicon-github-plain"></i>{repo}</span>
-						<m.div variants={''} className={css.viewProject}>
-							<Link href="/proyectos/">
-								<a css={emotionCss`
-									display: inline-flex;
-									align-items: center;
-	
-									@media (max-width: 768px) {
-										.ver-mas-text {
-										  display: none;
-										}
-									  }
-									`}>
-									<span className="ver-mas-text">Ver Más &nbsp;</span>
-									<Icon icon={['fad', 'arrow-right-to-bracket']}/>
-								</a>
-							</Link>
-						</m.div>
-					</div>
-					<div className={css.description}>
-						<p><strong>{descriptionTitle}</strong> {description}</p>
-					</div>
-					<div className={css.stackContainer}>
-						<Badges list={stack} block="stack" fullContainer={false} color={false}/>
-					</div>
-					<m.div variants={''} className={css.viewProject}>
-						<Link href="/proyectos/">
-							<a>
-								<Icon icon={['fad', 'arrow-right-to-bracket']}/>
-							</a>
-						</Link>
-					</m.div>
-				</div>
-			</div>
 
-			<div className={css.imageContainer}>
+            <div className={css.details}>
+                <div className={css.projectHeader}>
+                    <div className={css.header}>
+                        <h3 className="highlight">{project}</h3>
+                        <span className={css.privateOr}><i className="devicon-github-plain"></i>{repo}</span>
+                        <m.div variants={''} className={css.viewProject}>
+                            <Link href="/proyectos/">
+                                <a css={emotionCss`
+                                    display: inline-flex;
+                                    align-items: center;
+
+                                    @media (max-width: 768px) {
+                                        .ver-mas-text {
+                                            display: none;
+                                        }
+                                    }
+                                `}>
+                                    <span className="ver-mas-text">Ver Más &nbsp;</span>
+                                    <Icon icon={['fad', 'arrow-right-to-bracket']}/>
+                                </a>
+                            </Link>
+                        </m.div>
+                    </div>
+                    <div className={css.description}>
+                        <p><strong>{descriptionTitle}</strong> {description}</p>
+                    </div>
+                    <div className={css.stackContainer}>
+                        <Badges list={stack} block="stack" fullContainer={false} color={false}/>
+                    </div>
+                    <m.div variants={''} className={css.viewProject}>
+                        <Link href="/proyectos/">
+                            <a css={emotionCss`
+                                    display: inline-flex;
+                                    align-items: center;
+
+                                    @media (max-width: 768px) {
+                                        .ver-mas-text {
+                                            display: none;
+                                        }
+                                    }
+                                `}>
+                                <span className="ver-mas-text">Ver Más &nbsp;</span>
+                                <Icon icon={['fad', 'arrow-right-to-bracket']}/>
+                            </a>
+                        </Link>
+                    </m.div>
+                    <m.div variants={''} className={css.viewProject}>
+                    </m.div>
+                    <m.div variants={''} className={css.viewProject}>
+                    </m.div>
+                </div>
+            </div>
+
+            <div className={css.imageContainer}>
 				<span className={`${css.imageAnimationContainer}`}>
 					{images.map(({key, url, hover, h, w}, index) => {
-						hover = ( hover === 'left' ) ? hoverLeft : hoverRight
-						return (
-							<m.div key={`${index}-${key}`} variants={item}>
-								<m.div variants={hover}>
-									<Image src={url} alt="x" height={h} width={w} />
-								</m.div>
-							</m.div>
-						)}
-					) }
+                        hover = (hover === 'left') ? hoverLeft : hoverRight
+                        return (
+                            <m.div key={`${index}-${key}`} variants={item}>
+                                    <m.div variants={hover}>
+                                        <Image src={url} alt="x" height={h} width={w}/>
+                                    </m.div>
+                                </m.div>
+                            )
+                        }
+                    )}
 				</span>
-			</div>
-		</m.section>
-	)
+            </div>
+        </m.section>
+    )
 }
 
 const container = {
-	hidden: { 
-		transition: {
-			delayChildren: 0.125,
+    hidden: {
+        transition: {
+            delayChildren: 0.125,
 			staggerChildren: 0.0625
 		}
 	},
