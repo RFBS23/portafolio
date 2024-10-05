@@ -16,43 +16,36 @@ import CopyBlock from '../../blocks/about.copy.block'
 // Section scss
 import about from '../../../styles/sections/index/about.module.scss';
 
-/**
- * Section: Acercade
- * An overview of yourself.
- * Highlight your top level attributes and disciplines.
- *
- * @returns {jsx} <Acercade />
- */
 export default function About() {
 	return (
 		<Section classProp={about.section}>
 			<Container spacing={['verticalXXXLrg']}>
 				<SectionTitle
-					title="Acerca de mi"
-					preTitle=""
-					subTitle="With a diverse skill set that includes UX design, UI design, full stack development, operational architecture, systems design, photography, and branding, I am a well-rounded digital professional."
+					title="Acerca De"
+					preTitle="Mi Experiencia"
+					subTitle="&nbsp;"
 				/>
 				<section className={about.content}>
 					<div className={about.image}>
-						<img src="/img/fotomia.jpg" alt="Nelson family photo"/>
+						<img src="/img/fotomia.jpg" alt="Mi foto"/>
 						{/* <Image src="/img/fotomia.jpg" width={600} height={800}/> */}
 					</div>
 					<div className={about.copy} >
 						<CopyBlock
-							title="Softskills that pay the bills"
+							title="Perfil Profesional"
 							containerClass={about.container}
 							iconClass={about.icon}
-							icon={[ 'fat', 'ear-listen' ]}
-							copy="In addition to my design and technical expertise—I also have strong leadership, time management, and multitasking skills—honed through my experience as a business owner / managing partner, husband, and father of two. Outside of work, I enjoy staying active through sports such as hockey and snowboarding. I am confident in my ability to bring passion and value to any project."
+							icon={[ 'fat', 'briefcase' ]}
+							copy="Soy egresado de la carrera de Ingeniería de Software con especialización en Inteligencia Artificial, con 3 años de experiencia en programación y computación a nivel intermedio. Mi objetivo es seguir desarrollando y aplicando mis habilidades en un entorno profesional, aportando valor y soluciones innovadoras."
 						/>
 						<BadgesBlock
-							title="Reasearch and planning"
+							title="Valores y Habilidades"
 							containerClass={about.container}
 							list={methods}
 							fullContainer="fullContainer"
 							block="methods"
-							icon="fingerprint"
-							copy="One of my favorite aspects of creating is planning the architecture of a project. From Design Systems to Brand Strategy—I enjoy working with the many touch points of user experience."
+							icon="hands-helping"
+							copy="Me considero una persona responsable, confiable y con sólidos valores. Tengo facilidad para integrarme en equipos de trabajo y puedo desempeñarme eficazmente tanto en grupo como de manera individual, cumpliendo con las funciones asignadas. Estoy comprometido con el aprendizaje continuo y siempre dispuesto a poner en práctica los conocimientos adquiridos a lo largo de mi carrera."
 							//invertedColor="invertedColor"
 							headerIcon={`${about.icon}`}
 						/>
@@ -64,12 +57,8 @@ export default function About() {
 }
 
 const methods 	= [
-	{ key: 'planet-moon', 		name: 'User Research', 		type: 'fad' },
-	{ key: 'qrcode', 			name: 'Digital Strategy', 	type: 'fad' },
-	{ key: 'window', 			name: 'Design Systems', 	type: 'fad' },
-	{ key: 'cubes', 			name: 'Product Strategy', 	type: 'far' },
-	{ key: 'layer-plus', 		name: 'Brand Strategy', 	type: 'fad' },
-	{ key: 'solar-system', 		name: 'Operations', 		type: 'fad' },
-	{ key: 'facebook', 		name: 'Bhh tegy', 	type: 'fad' },
-	{ key: 'solar-system', 		name: 'Operhh ons', 		type: 'fad' },
+	{ key: 'desktop', name: 'Kali Linux', type: 'fad' },
+	{ key: 'laptop', name: 'Ubuntu', type: 'fad' },
+	{ key: 'server', name: 'Windows Server', type: 'fad' },
+	{ key: 'code', name: 'GitHub', type: 'fad' },
 ]
