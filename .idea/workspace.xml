@@ -17,63 +17,7 @@
       <change beforePath="$PROJECT_DIR$/../package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../package.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/sections/about/acercade.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/sections/about/acercade.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/sections/experience/experience.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/sections/experience/experience.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/navbar.json" beforeDir="false" afterPath="$PROJECT_DIR$/content/navbar.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@fortawesome/free-brands-svg-icons/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@fortawesome/free-brands-svg-icons/LICENSE.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@fortawesome/free-brands-svg-icons/attribution.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@fortawesome/free-brands-svg-icons/faAlgolia.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@fortawesome/free-brands-svg-icons/faAlgolia.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@fortawesome/free-brands-svg-icons/faCcAmex.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@fortawesome/free-brands-svg-icons/faCcAmex.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@fortawesome/free-brands-svg-icons/faCloudsmith.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@fortawesome/free-brands-svg-icons/faCloudsmith.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@fortawesome/free-brands-svg-icons/faFacebook.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@fortawesome/free-brands-svg-icons/faFacebook.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@fortawesome/free-brands-svg-icons/faFacebookF.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@fortawesome/free-brands-svg-icons/faFacebookF.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@fortawesome/free-brands-svg-icons/faFontAwesome.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@fortawesome/free-brands-svg-icons/faFontAwesome.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@fortawesome/free-brands-svg-icons/faHotjar.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@fortawesome/free-brands-svg-icons/faHotjar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@fortawesome/free-brands-svg-icons/faKickstarter.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@fortawesome/free-brands-svg-icons/faKickstarter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@fortawesome/free-brands-svg-icons/faKickstarterK.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@fortawesome/free-brands-svg-icons/faKickstarterK.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@fortawesome/free-brands-svg-icons/faLine.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@fortawesome/free-brands-svg-icons/faLine.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@fortawesome/free-brands-svg-icons/faPatreon.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@fortawesome/free-brands-svg-icons/faPatreon.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@fortawesome/free-brands-svg-icons/faReddit.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@fortawesome/free-brands-svg-icons/faReddit.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@fortawesome/free-brands-svg-icons/faRedditAlien.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@fortawesome/free-brands-svg-icons/faRedditAlien.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@fortawesome/free-brands-svg-icons/faSoundcloud.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@fortawesome/free-brands-svg-icons/faSoundcloud.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@fortawesome/free-brands-svg-icons/faSquareBehance.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@fortawesome/free-brands-svg-icons/faSquareBehance.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@fortawesome/free-brands-svg-icons/faSquareDribbble.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@fortawesome/free-brands-svg-icons/faSquareDribbble.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@fortawesome/free-brands-svg-icons/faSquareFacebook.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@fortawesome/free-brands-svg-icons/faSquareFacebook.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@fortawesome/free-brands-svg-icons/faSquareFontAwesome.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@fortawesome/free-brands-svg-icons/faSquareFontAwesome.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@fortawesome/free-brands-svg-icons/faSquareFontAwesomeStroke.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@fortawesome/free-brands-svg-icons/faSquareFontAwesomeStroke.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@fortawesome/free-brands-svg-icons/faSquareGit.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@fortawesome/free-brands-svg-icons/faSquareGit.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@fortawesome/free-brands-svg-icons/faSquareGithub.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@fortawesome/free-brands-svg-icons/faSquareGithub.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@fortawesome/free-brands-svg-icons/faSquareGitlab.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@fortawesome/free-brands-svg-icons/faSquareGitlab.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@fortawesome/free-brands-svg-icons/faSquareGooglePlus.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@fortawesome/free-brands-svg-icons/faSquareGooglePlus.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@fortawesome/free-brands-svg-icons/faSquareHackerNews.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@fortawesome/free-brands-svg-icons/faSquareHackerNews.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@fortawesome/free-brands-svg-icons/faSquareInstagram.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@fortawesome/free-brands-svg-icons/faSquareInstagram.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@fortawesome/free-brands-svg-icons/faSquareJs.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@fortawesome/free-brands-svg-icons/faSquareJs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@fortawesome/free-brands-svg-icons/faSquareLastfm.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@fortawesome/free-brands-svg-icons/faSquareLastfm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@fortawesome/free-brands-svg-icons/faSquareOdnoklassniki.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@fortawesome/free-brands-svg-icons/faSquareOdnoklassniki.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@fortawesome/free-brands-svg-icons/faSquarePinterest.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@fortawesome/free-brands-svg-icons/faSquarePinterest.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@fortawesome/free-brands-svg-icons/faSquareReddit.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@fortawesome/free-brands-svg-icons/faSquareReddit.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@fortawesome/free-brands-svg-icons/faSquareSteam.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@fortawesome/free-brands-svg-icons/faSquareSteam.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@fortawesome/free-brands-svg-icons/faSquareTumblr.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@fortawesome/free-brands-svg-icons/faSquareTumblr.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@fortawesome/free-brands-svg-icons/faSquareTwitter.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@fortawesome/free-brands-svg-icons/faSquareTwitter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@fortawesome/free-brands-svg-icons/faSquareViadeo.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@fortawesome/free-brands-svg-icons/faSquareViadeo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@fortawesome/free-brands-svg-icons/faSquareVimeo.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@fortawesome/free-brands-svg-icons/faSquareVimeo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@fortawesome/free-brands-svg-icons/faSquareWhatsapp.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@fortawesome/free-brands-svg-icons/faSquareWhatsapp.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@fortawesome/free-brands-svg-icons/faSquareXing.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@fortawesome/free-brands-svg-icons/faSquareXing.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@fortawesome/free-brands-svg-icons/faSquareYoutube.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@fortawesome/free-brands-svg-icons/faSquareYoutube.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@fortawesome/free-brands-svg-icons/faSuse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@fortawesome/free-brands-svg-icons/faSuse.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@fortawesome/free-brands-svg-icons/faTeamspeak.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@fortawesome/free-brands-svg-icons/faTeamspeak.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@fortawesome/free-brands-svg-icons/faUbuntu.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@fortawesome/free-brands-svg-icons/faUbuntu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@fortawesome/free-brands-svg-icons/faUssunnah.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@fortawesome/free-brands-svg-icons/faUssunnah.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@fortawesome/free-brands-svg-icons/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@fortawesome/free-brands-svg-icons/index.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@fortawesome/free-brands-svg-icons/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@fortawesome/free-brands-svg-icons/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@fortawesome/free-brands-svg-icons/index.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@fortawesome/free-brands-svg-icons/index.mjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@fortawesome/free-brands-svg-icons/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@fortawesome/free-brands-svg-icons/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@fortawesome/react-fontawesome/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@fortawesome/react-fontawesome/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@fortawesome/react-fontawesome/index.es.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@fortawesome/react-fontawesome/index.es.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@fortawesome/react-fontawesome/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@fortawesome/react-fontawesome/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@fortawesome/react-fontawesome/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@fortawesome/react-fontawesome/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/sections/index/hero.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/sections/index/hero.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../public/favicon.ico" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../public/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/App.css" beforeDir="false" />
@@ -259,7 +203,8 @@
       <workItem from="1728154098397" duration="914000" />
       <workItem from="1728155049908" duration="17000" />
       <workItem from="1728155115678" duration="117000" />
-      <workItem from="1728155643519" duration="5715000" />
+      <workItem from="1728155643519" duration="6632000" />
+      <workItem from="1728336245432" duration="706000" />
     </task>
     <servers />
   </component>

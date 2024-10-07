@@ -15,17 +15,6 @@ import button 		from '../../../styles/blocks/button.module.scss';
 
 import content		from '../../../content/index/hero.json'
 
-
-/**
- * TO DO LIST
- *
- * - Create a typog.modules.scss
- *   Load this module onto every component, and use predefined typography classes to keep typography consistent
- *
- * - space.modules.scss
- *   Load this module onto every component, and use predefined spacial classes to keep geometry consistent
- */
-
 export default function Hero() {
 
 	const [typingStatus, setTypingStatus] = useState('Initializing');
@@ -69,7 +58,7 @@ export default function Hero() {
 						{content.buttons.primary.title}
 					</button>
 					<button className={`button ${button.secondary} leaveSite`}
-							onClick={() => window.open("https://www.linkedin.com/in/--andrewnelson/", "_blank")}>
+							onClick={() => window.open("https://www.linkedin.com/in/fabrizio-barrios-55b5861b7/", "_blank")}>
 						{content.buttons.secondary.title}
 					</button>
 				</section>
