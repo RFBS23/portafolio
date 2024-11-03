@@ -1,9 +1,17 @@
 {
 	"acknowledgments": [
 		{ 
-			"person": "Plataforma - Vercel",
+			"person": "Vercel App",
 			"link": "https://vercel.com/rfbs19s-projects",
 			"note": "Aqui estan mis proyectos web gratis!"
+		}
+	],
+
+	"plataformagithub": [
+		{
+			"person": "GitHub",
+			"link": "/projects",
+			"note": "Aqui estan mis proyectos mas recientes!"
 		}
 	],
 

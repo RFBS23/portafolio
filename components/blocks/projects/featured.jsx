@@ -65,10 +65,6 @@ export default function FeaturedProject({ content }, index) {
                             */}
 						</Link>
 					</m.div>
-					<m.div variants={''} className={css.viewProject}>
-					</m.div>
-					<m.div variants={''} className={css.viewProject}>
-					</m.div>
 				</div>
 			</div>
 

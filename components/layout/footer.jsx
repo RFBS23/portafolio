@@ -35,38 +35,48 @@ export default function Footer() {
 					<ul className={css.thanks}>
 						<li><h4>Repositorios</h4></li>
 						{
-						content.acknowledgments.map( ({ person, link, note }, index) => {
-							return (
-								<li key={index}>
-									<a href={link} rel="noreferrer" target="_blank">{person} <Icon icon={[ 'fad', 'arrow-up-right-from-square' ]} /></a>
-									<p>{note}</p>
-								</li>
-							)
-						})
+							content.acknowledgments.map( ({ person, link, note }, index) => {
+								return (
+									<li key={index}>
+										<a href={link} rel="noreferrer" target="_blank">{person} <Icon icon={[ 'fad', 'arrow-up-right-from-square' ]} /></a>
+										<p>{note}</p>
+									</li>
+								)
+							})
+						}
+						{
+							content.plataformagithub.map( ({ person, link, note }, index) => {
+								return (
+									<li key={index}>
+										<a href={link} rel="noreferrer">{person} <Icon icon={[ 'fad', 'arrow-up-right-from-square' ]} /></a>
+										<p>{note}</p>
+									</li>
+								)
+							})
 						}
 					</ul>
 					<ul className={css.links}>
 						<li><h4>Enlaces</h4></li>
 						{
-						content.links.map( ({ person, link, note }, index) => {
-							return (
-								<li key={index}>
-									<a href={link} rel="noreferrer" target="_blank">{person} <Icon icon={[ 'fad', 'arrow-up-right-from-square' ]} /></a>
-									<p>{note}</p>
-								</li>
-							)
-						})
+							content.links.map( ({ person, link, note }, index) => {
+								return (
+									<li key={index}>
+										<a href={link} rel="noreferrer" target="_blank">{person} <Icon icon={[ 'fad', 'arrow-up-right-from-square' ]} /></a>
+										<p>{note}</p>
+									</li>
+								)
+							})
 						}
 					</ul>
 					<ul className={css.social}>
 						<li><h4>Redes Sociales</h4></li>
 						<li className={css.socialList}>
 							{
-							content.social.map( ({ url, icon }, index) => {
-								return (
-									<a  key={index} href={url} rel="noreferrer" target="_blank"><Icon icon={[ 'fab', icon ]} /></a>
-								)
-							})
+								content.social.map( ({ url, icon }, index) => {
+									return (
+										<a  key={index} href={url} rel="noreferrer" target="_blank"><Icon icon={[ 'fab', icon ]} /></a>
+									)
+								})
 							}
 						</li>
 					</ul>

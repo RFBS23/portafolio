@@ -12,7 +12,7 @@ export default function Projects({ user, repos }) {
 	return (
 		<>
 		<Color colors={colors} />
-		<FeaturedProjects />
+		{/*<FeaturedProjects />*/}
 		<GitRecentProjects user={user} repos={repos} />
 		</>
 	)
@@ -53,7 +53,7 @@ export async function getServerSideProps({ res }) {
 		repos.sort( (a, b) => b.timestamp - a.timestamp )
 
 		repos = repos.filter( (e, i) => {
-			if ( i < 8 && ! e.topics.includes('github-config')) return e
+			if ( i < 9 && ! e.topics.includes('github-config')) return e
 			return false
 		})
 	}

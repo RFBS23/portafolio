@@ -30,24 +30,35 @@ export default function Technical() {
 				<SectionTitle
 					title="Habilidades"
 					preTitle="Mis Habilidades"
-					subTitle="As a creative technologist,, I craft intuitive digital experiences using a diverse set of tools and languages."
+					subTitle="Como programador Full Stack y diseñador especializado en web y UX, desarrollo experiencias digitales completas, combinando tecnología moderna y diseño intuitivo para ofrecer soluciones atractivas y funcionales."
 				/>
 				<section className={`${about.content} ${about.container}`}>
 					<div className={about.copy}>
+						{/*
 						<CopyBlock
-							title="Polymath foundations"
-							icon={['fat', 'chart-network']}
-							copy="With a strong foundation in both design and development, I bring a unique perspective to every project and am constantly learning and evolving to stay up-to-date with the latest industry trends."
+							title="Programador Fullstack y Freelancer"
+							icon={['fat', 'lightbulb']}
+							copy="Soy un programador fullstack que crea soluciones digitales completas, combinando interfaces amigables y sistemas backend seguros, utilizando diversas herramientas para generar aplicaciones efectivas y escalables."
 							iconClass={about.icon}
 							containerClass={about.container}
-						/>
+						/>*/}
 						<BadgesBlock
-							title="Software I love to work with"
-							copy="With over 20 years of experience creating digital assets, I have a deep and intuitive understanding of how the interfaces of the best software products in the world are designed. This is just some of the software I have used over that time."
+							title="Lenguajes de programación"
+							copy="Como programador fullstack que desarrolla soluciones digitales completas, fusionando interfaces amigables. Con un dominio en múltiples lenguajes de programación y diversas herramientas, creo aplicaciones efectivas y escalables que combinan funcionalidad y rendimiento."
 							list={software}
 							block="software"
 							fullContainer="fullContainer"
-							icon="grid-2-plus"
+							icon="code"
+							containerClass={about.container}
+							headerIcon={about.icon}
+						/>
+						<BadgesBlock
+							title="Base de Datos"
+							copy="Con experiencia necesaria en bases de datos, diseño de esquemas y optimización de consultas, garantizo el manejo eficiente de la información para el desarrollo de aplicaciones robustas y escalables."
+							list={database}
+							block="software"
+							fullContainer="fullContainer"
+							icon="database"
 							containerClass={about.container}
 							headerIcon={about.icon}
 						/>
@@ -55,21 +66,24 @@ export default function Technical() {
 
 					<div className={about.copy}>
 						<BadgesBlock
-							title="Technologies I love to build with"
-							copy="I deeply enjoy solving problems through code. From the front end all the way to the back end and the APIs in-between. No project is too challenging for me."
+							title="Diseño Web y UX"
+							copy="Como diseñador, realizo experiencias visuales que equilibran estética y usabilidad, garantizando que cada proyecto sea atractivo y fácil de navegar. Con un enfoque centrado en la experiencia de usuario, desarrollo soluciones que integran funcionalidad y estética, asegurando que cada experiencia sea atractiva e intuitiva."
 							list={tech}
 							block="tech"
 							fullContainer="fullContainer"
-							icon="laptop-code"
+							icon="desktop"
 							containerClass={about.container}
 							headerIcon={about.icon}
 						/>
-						<CopyBlock
-							title="Polymath foundations"
-							icon={['fat', 'chart-network']}
-							copy="With a strong foundation in both design and development, I bring a unique perspective to every project and am constantly learning and evolving to stay up-to-date with the latest industry trends."
-							iconClass={about.icon}
+						<BadgesBlock
+							title="Sistemas Operativos"
+							copy="Soy experto en el manejo de máquinas virtuales y sistemas operativos, optimizando entornos de desarrollo y producción para maximizar el rendimiento y la seguridad de las aplicaciones."
+							list={sisop}
+							block="software"
+							fullContainer="fullContainer"
+							icon="cloud"
 							containerClass={about.container}
+							headerIcon={about.icon}
 						/>
 					</div>
 
@@ -84,32 +98,53 @@ export default function Technical() {
 	)
 }
 
-const software = [
-	{key: 'photoshop', name: 'Photoshop', type: 'devicon'},
-	{key: 'illustrator', name: 'Illustrator', type: 'devicon'},
+const tech = [
 	{key: 'figma', name: 'Figma', type: 'devicon'},
+	{key: 'xd', name: 'Adobe XD', type: 'devicon'},
+	{key: 'materialui', name: 'InDesing', type: 'devicon'},
+	{key: 'materialui', name: 'SketchUp', type: 'devicon'},
+	{key: 'blender', name: 'Blender', type: 'devicon'},
+	{key: 'illustrator', name: 'Illustrator', type: 'devicon'},
 	{key: 'vscode', name: 'VSCode', type: 'devicon'},
-	{key: 'mailbox', name: 'Postman', type: 'fas'},
-	{key: 'computer-mouse', name: 'Click Up', type: 'fas'},
-	{key: 'list-music', name: 'Ableton', type: 'fas'},
-	{key: 'aftereffects', name: 'After Effects', type: 'devicon'},
-	{key: 'premierepro', name: 'Premiere Pro', type: 'devicon'},
 ]
 
-const tech = [
-	{key: 'javascript', name: 'JavaScript', type: 'devicon'},
-	{key: 'nodejs', name: 'NodeJS', type: 'devicon'},
-	{key: 'react', name: 'React', type: 'devicon'},
-	{key: 'nextjs', name: 'NextJS', type: 'devicon'},
-	{key: 'jquery', name: 'jQuery', type: 'devicon'},
+const software = [
+	{key: 'java', name: 'JAVA', type: 'devicon'},
 	{key: 'php', name: 'PHP', type: 'devicon'},
-	{key: 'wordpress', name: 'WordPress', type: 'devicon'},
-	{key: 'woocommerce', name: 'WooCommerce', type: 'devicon'},
-	{key: "google", name: "GA4/GTM", type: "devicon"},
-	{key: 'html5', name: 'HTML5', type: 'devicon'},
-	{key: 'css3', name: 'CSS3', type: 'devicon'},
-	{key: 'sass', name: 'SASS', type: 'devicon' },
-	{ key: 'git', 			name: 'Git', 				type: 'devicon' },
-	{ key: 'mysql', 		name: 'MySQL', 				type: 'devicon' },
-	{ key: 'mongodb', 		name: 'MongoDB', 			type: 'devicon' },
+	{key: 'csharp', name: 'C#', type: 'devicon'},
+	{key: 'dot-net', name: 'ASP.NET', type: 'devicon'},
+	{key: 'flutter', name: 'FLUTTER', type: 'devicon'},
+	{key: 'androidstudio', name: 'Android Studio', type: 'devicon'},
+	{key: 'react', name: 'REACT', type: 'devicon'},
+	{key: 'jquery', name: 'JQuery', type: 'devicon'},
+	{key: 'html5', name: 'HTML', type: 'devicon'},
+	{key: 'css3', name: 'CSS', type: 'devicon'},
+	{key: 'javascript', name: 'JS', type: 'devicon'},
+	{key: 'sass', name: 'SASS', type: 'devicon'},
+	{key: 'python', name: 'PYTHON', type: 'devicon'},
+	{key: 'bootstrap', name: 'BOOTSTRAP', type: 'devicon'},
+	{key: 'go', name: 'GO - Basico', type: 'devicon'},
+	{key: 'dart', name: 'DART', type: 'devicon'},
+	{key: 'github', name: 'GITHUB', type: 'devicon'},
+	{key: 'composer', name: 'COMPOSER', type: 'devicon'},
+	{key: 'git', name: 'GIT', type: 'devicon'},
+	{key: 'pycharm', name: 'PYCHARM', type: 'devicon'},
+]
+
+const database = [
+	{key: 'microsoftsqlserver', name: 'Sql Server', type: 'devicon'},
+	{key: 'mysql', name: 'MySql', type: 'devicon'},
+	{key: 'sqlite', name: 'Db Browser', type: 'devicon'},
+]
+
+const sisop = [
+	{key: 'ubuntu', name: 'Ubuntu', type: 'devicon'},
+	{key: 'linux', name: 'Kali Linux', type: 'devicon'},
+	{key: 'putty', name: 'Windows Server', type: 'devicon'},
+	{key: 'devicon', name: 'VmWare', type: 'devicon'},
+	{key: 'devicon', name: 'Virtual Box', type: 'devicon'},
+	{key: 'windows8', name: 'Windows xp', type: 'devicon'},
+	{key: 'windows8', name: 'Windows 7', type: 'devicon'},
+	{key: 'windows8', name: 'Windows 8, 8.1', type: 'devicon'},
+	{key: 'windows8', name: 'Windows 10, 11', type: 'devicon'},
 ]

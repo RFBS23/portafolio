@@ -17,7 +17,12 @@
       <change beforePath="$PROJECT_DIR$/../package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../package.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/sections/index/hero.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/sections/index/hero.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/blocks/projects/featured.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/blocks/projects/featured.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/layout/footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/layout/footer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/sections/index/technical.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/sections/index/technical.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/footer.json" beforeDir="false" afterPath="$PROJECT_DIR$/content/footer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/navbar.json" beforeDir="false" afterPath="$PROJECT_DIR$/content/navbar.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/projects/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/projects/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../public/favicon.ico" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../public/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/App.css" beforeDir="false" />
@@ -204,7 +209,8 @@
       <workItem from="1728155049908" duration="17000" />
       <workItem from="1728155115678" duration="117000" />
       <workItem from="1728155643519" duration="6632000" />
-      <workItem from="1728336245432" duration="706000" />
+      <workItem from="1728336245432" duration="797000" />
+      <workItem from="1730609423058" duration="10223000" />
     </task>
     <servers />
   </component>
